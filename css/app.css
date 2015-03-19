@@ -1,0 +1,115 @@
+
+
+/* utils */
+
+.m-bottom {
+  margin-bottom: 10px;
+}
+
+/* end of utils */
+
+.modal-backdrop.light {
+    background-color: #fff;
+}
+
+.search-zipcode {
+  margin-top: 10px;
+}
+
+.search-label {
+  color: #fff;
+}
+.loading-indicator {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  padding-top: 10%;
+}
+.loading-indicator.hide {
+  display: none;
+}
+.loading-indicator img {
+  
+  text-align: center;
+  margin: auto;
+  margin-top:100px;
+}
+.bs-docs-sidebar.places-container {
+  max-height: 400px;
+  overflow: scroll;
+}
+.show-searchplace {
+  clear: both;
+  text-align: center;
+  color: #ddd;
+}
+/** Bootstrap overrides **/
+.navbar .btn {
+  margin-top: 0;
+}
+.table tr.active {
+  background-color: #B0CF82;
+}
+.table tr.active td {
+  background-color: transparent !important;
+}
+.searchBox
+{
+	width:90%;
+	margin:10px;
+}
+#header-back-btn
+{
+	float: left;
+width: 70px;
+left:0px;
+position: absolute;
+z-index: 1;
+text-decoration:none;
+font-size:14px;
+color:#fff;
+}
+#header-back-btn img
+{
+	height:22px;
+}
+#header-home-btn
+{
+right:0px;
+width: 70px;
+position: absolute;
+z-index: 1;
+color:#fff;
+font-size:14px;
+}
+#main-title
+{
+	float: left;
+position: absolute;
+width: 100%;
+text-align: center;
+font-size:16px;
+}
+.helpbtn
+{
+	position:absolute;
+	bottom:0;
+	right:10px;
+}
+.home_header
+{
+	background:#814f00;
+	height:45px;
+	text-align:center;
+	color:#fff;
+	line-height:45px;
+}
+.map-tab
+{
+	width:50%;
+}

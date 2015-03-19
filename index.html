@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Location</title>
+  <!-- need to change these to local -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body ng-controller="MainCtrl">
+    <div class="home_header">
+        <a href back-button id="header-back-btn">
+            <img src="img/back-btn.png" /> Back
+        </a>
+       <div id="main-title">Places</div>
+    </div>
+  <!-- View placeholder -->
+  <div ng-view></div>
+  <div class="loading-indicator">
+    <img src="img/loading18.gif" />
+  </div>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&sensor=false"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+ 
+</body>
+</html>
